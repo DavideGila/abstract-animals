@@ -1,6 +1,6 @@
 package org.learning.abstractanimals;
 
-public class Hawk extends Animal {
+public class Hawk extends Animal implements CanFly{
     public Hawk(String name) {
         super(name);
     }
@@ -13,5 +13,10 @@ public class Hawk extends Animal {
     @Override
     public void animalFeed() {
         System.out.println("Small Mammals, Birds, Reptiles");
+    }
+
+    @Override
+    public void fly() {
+        System.out.println("I'm flying!!!!!");
     }
 }
