@@ -1,6 +1,6 @@
 package org.learning.abstractanimals;
 
-public class Hawk extends Animals{
+public class Hawk extends Animal {
     public Hawk(String name) {
         super(name);
     }

@@ -1,11 +1,11 @@
 package org.learning.abstractanimals;
 
-public abstract class Animals {
+public abstract class Animal {
     // ATTRIBUTI
     private String name;
 
     // COSTRUTTORI
-    public Animals(String name) {
+    public Animal(String name) {
         this.name = name;
     }
 

@@ -2,10 +2,10 @@ package org.learning.abstractanimals;
 
 public class Main {
     public static void main(String[] args) {
-        Animals[] animals = {new Dog("Barney"), new Sparrow("Feather"), new Hawk("Talon"),
+        Animal[] animals = {new Dog("Barney"), new Sparrow("Feather"), new Hawk("Talon"),
         new Dolphin("Flipper")};
 
-        for (Animals animal : animals){
+        for (Animal animal : animals){
             if (animal instanceof Dog) {
                 System.out.println("Dog: " + animal.getName());
                 System.out.print("Animal noise: ");
